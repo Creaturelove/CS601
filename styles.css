@@ -1,0 +1,35 @@
+p[title="Rush2112"]::first-line {
+  font-weight: bold;
+  color: darkblue;
+}
+
+
+input::placeholder {
+    font-weight: bold;
+    color: red;
+}
+
+p::before {
+  content: "*Paragraph Beigin* ";
+  
+}
+
+p::after {
+  content: "*Paragraph End*";
+  font-weight: bold;
+  color: darkblue;
+}
+
+div.drake::first-letter {
+  font-size: 2em;
+  color: green;
+}
+/*experimental one*/
+:target {
+  background-color: yellow;
+}
+
+ul li::marker {
+  color: DarkGreen;
+  font-size: 1.5em;
+}
